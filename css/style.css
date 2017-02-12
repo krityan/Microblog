@@ -1,0 +1,94 @@
+#navbar {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+	background-color: black;
+}
+
+#navbar > li {
+	float: left;
+	background-color: black;
+	width: 80px;
+}
+
+#navbar > li a {
+	text-align: center;
+	display: block;
+	color: white;
+	text-decoration: none;
+	padding: 14px 16px;
+	font-family: "Lucida Console", Monospace;
+}
+
+#navbar > li a:hover {
+	background-color: blue;
+}
+
+#titling {
+	text-transform: capitalize;
+	font-family: "Lucida Console", Monospace;
+	font-weight: bold;
+	text-align: center;
+}
+
+#content {
+	width: 80%;
+	margin: auto;
+}
+
+#messagetable {
+	border-collapse: collapse;
+	width: 100%;
+	border: 2px solid black;
+}
+
+#messagetable td, #messagetable th {
+	border: 1px solid black;
+	text-align: center;
+	height: 25px;
+}
+
+#message {
+	width: 60%;
+}
+
+#time {
+	width: 25%;
+}
+
+#author {
+	width: 15%;
+}
+
+#entryform {
+	
+}
+
+#entryform input[type=text],[type=password]{
+	width: 100%;
+	padding: 10px 10px;
+	margin: 8px 0;
+	box-sizing: border-box;
+}
+
+#entryform input[type=text],[type=password]:focus {
+	border: 3px solid black;
+}
+
+#entryform input[type=submit]{
+	background-color: black;
+	color: white;
+	border: none;
+	padding: 10px 10px;
+	margin: 0;
+	width: 100%;
+}
+
+#followuser input[type=submit]{
+	background-color: black;
+	color: white;
+	border: none;
+	padding: 10px 10px;
+	width: 100%;
+}
